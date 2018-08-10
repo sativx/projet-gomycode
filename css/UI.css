@@ -1,0 +1,77 @@
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.moustatile{
+	background-color: #E63946;
+	width: 80%;
+	height: 300px;
+	color: #F0F3BD;
+	margin-top: 30px;
+	margin-left: 80px;
+	box-shadow: 5px 10px 8px 10px #888888;
+	margin-bottom: 40px;
+}
+
+.moustatile p {
+	text-align: center;
+	text-align: justify;
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+
+.moustatile h2 {
+	text-align: left;
+}
+
+.moustatile img {
+	margin-top: 20px;
+}
+
+.gallery{
+	margin-top: 120px;
+	background-color: grey;
+}
+
+.gallery img{
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+	height: 200px;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+.xd {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.xd i {
+	padding: 50px;
+}
+.xd p {
+	text-align: justify;
+	border-right-color: tomato;
+	border-right-width: 8px;
+	border-right-style: solid;
+	padding-right: 10px;
+}
+
+.douira{
+	transition: transform 2s;
+}
+
+.douira:hover {
+	transform: rotate(360deg);
+	transition: transform 2s;
+}
